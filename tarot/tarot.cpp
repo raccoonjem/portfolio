@@ -21,7 +21,7 @@ string Card::GetCardString()
 {
     string SUITS[] = {"Pentacles", "Wands", "Cups", "Swords"};
 
-    for (int i = 0; i < size(SUITS); i++)
+    for (int i = 0; i < 4; i++)
     {
         if (SUITS[i] == cSuit)
         {
